@@ -242,7 +242,7 @@ Healthcare_Cost_Dashboard.png
 
 This dashboard summarizes the main drivers of healthcare costs identified in the analysis.
 
-![Healthcare Cost Dashboard](imges/Healthcare_Cost_Dashboard.png)
+![Healthcare Cost Dashboard](images/Healthcare_Cost_Dashboard.png)
 ---
 
 # Key Insights
