@@ -235,6 +235,16 @@ are the main drivers of healthcare costs.
 
 ---
 
+# Healthcare Cost Drivers Dashboard
+
+Insert figure:
+Healthcare_Cost_Dashboard.png
+
+This dashboard summarizes the main drivers of healthcare costs identified in the analysis.
+
+![Healthcare Cost Dashboard](img/Healthcare_Cost_Dashboard.png)
+---
+
 # Key Insights
 
 Several consistent patterns emerge across the analysis:
@@ -278,6 +288,6 @@ Combining predictive models with policy simulations could further support **data
 
 This project demonstrates how data analytics can help uncover **key drivers of healthcare costs and identify prevention opportunities**.
 
-By combining **SQL analysis, segmentation, causal inference, and machine learning**, the analysis reveals that lifestyle factors — especially smoking and obesity — play a central role in medical spending.
+By combining **SQL analysis, segmentation, causal inference, and machine learning**, the analysis reveals that lifestyle factors, especially smoking and obesity, play a central role in medical spending.
 
 These insights highlight how **data-driven strategies can improve both cost efficiency and public health outcomes**, illustrating the growing role of analytics in building more sustainable healthcare systems.
