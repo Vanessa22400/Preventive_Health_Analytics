@@ -2,14 +2,14 @@
 *Using data analytics to identify lifestyle risk factors, predict healthcare costs, and explore prevention strategies.*
 
 **Dataset:** Health insurance dataset (1,338 individuals)  
-**Techniques:** SQL analysis, EDA, clustering (K-Means), causal inference (Propensity Score Matching), machine learning (Linear Regression & Random Forest)  
-**Key Insight:** Smoking increases healthcare costs by ~**$23,500 per year**, making it the strongest cost driver in the dataset.  
+**Techniques:** SQL analysis, EDA, clustering (K-Means), causal inference (Propensity Score Matching), machine learning (Linear Regression & Random Forest), A/B testing design  
+**Key Insight:** Smoking increases healthcare costs by approximately **$23,500 per year**, making it the strongest cost driver in the dataset.
 
 ---
 
-# Project Overview
+## Project Overview
 
-Healthcare systems face a major challenge: **a small portion of individuals generates a disproportionately large share of medical costs**.
+Healthcare systems around the world face a common challenge: a relatively small portion of individuals generates a large share of medical expenses.
 
 This project explores how data analytics can help:
 
@@ -18,7 +18,9 @@ This project explores how data analytics can help:
 - estimate the **causal impact of lifestyle factors**
 - support **preventive healthcare strategies**
 
-The analysis combines **data analytics, statistical reasoning, and machine learning** to provide insights that are relevant for both **business decision-making and public health strategy**.
+The analysis combines SQL exploration, statistical analysis, risk cohort segmentation, causal inference, and machine learning to investigate how lifestyle factors influence medical spending.
+
+Beyond prediction, the project also examines how data can support **preventive healthcare strategies**, helping organizations reduce long-term costs while improving population health outcomes.
 
 ---
 
