@@ -3,7 +3,7 @@
 
 **Dataset:** Health Insurance Dataset (1,338 individuals)  
 **Techniques:** SQL analysis, exploratory data analysis (EDA), risk segmentation, K-Means clustering, causal inference (Propensity Score Matching), machine learning (Linear Regression & Random Forest), experimental design concepts (A/B testing), Retrieval-Augmented Generation (RAG).  
-**Key Insight:** Smoking increases healthcare costs by approximately **$23,500 per individual per year**, making it the strongest cost driver in the dataset.
+**Key Insight:** Smoking increases healthcare costs by approximately **$23,500** per individual per year, making it the strongest cost driver in the dataset.
 
 ---
 
@@ -33,13 +33,13 @@ Dataset characteristics:
 
 Key variables include:
 
-- **age** – age of the individual  
-- **sex** – gender  
-- **bmi** – body mass index  
-- **children** – number of dependents  
-- **smoker** – smoking status  
-- **region** – geographic region  
-- **charges** – annual healthcare costs  
+`age` - age of the insured individual  
+`sex` - gender  
+`bmi` - body mass index  
+`children` - number of dependents  
+`smoker` - smoking status  
+`region` - geographic region  
+`charges` - annual healthcare costs  
 
 Healthcare costs range from roughly **$1,000 to more than $63,000**, indicating the presence of a **high-cost patient segment**.
 
@@ -223,21 +223,13 @@ Several consistent insights emerge across the analysis:
 
 These findings suggest several potential applications:
 
-**Prevention programs**
+**Prevention programs**: Targeted smoking cessation initiatives could reduce healthcare spending significantly.
 
-Targeted smoking cessation initiatives could reduce healthcare spending significantly.
+**Population health management**: Risk cohort segmentation allows healthcare organizations to focus resources on high-risk groups.
 
-**Population health management**
+**Cost forecasting**: Predictive models can support planning and healthcare cost estimation.
 
-Risk cohort segmentation allows healthcare organizations to focus resources on high-risk groups.
-
-**Cost forecasting**
-
-Predictive models can support planning and healthcare cost estimation.
-
-**Strategic healthcare planning**
-
-Understanding cost drivers supports more sustainable healthcare strategies.
+**Strategic healthcare planning**: Understanding cost drivers supports more sustainable healthcare strategies.
 
 ---
 
@@ -269,6 +261,8 @@ Possible future extensions include:
 
 ```
 .
+├── data
+│   └── insurance.csv
 ├── notebooks
 │   ├── Preventive_Health_Analytics.ipynb
 │   └── Preventive_Health_Assistant_RAG.ipynb
