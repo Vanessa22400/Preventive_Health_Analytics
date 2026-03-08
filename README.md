@@ -37,13 +37,13 @@ Dataset characteristics:
 
 Main variables:
 
-- `age` – age of the insured individual  
-- `sex` – gender  
-- `bmi` – body mass index  
-- `children` – number of dependents  
-- `smoker` – smoking status  
-- `region` – geographic region  
-- `charges` – annual healthcare costs  
+`age` - age of the insured individual  
+`sex` - gender  
+`bmi` - body mass index  
+`children` - number of dependents  
+`smoker` - smoking status  
+`region` - geographic region  
+`charges` - annual healthcare costs  
 
 The dataset is **fully anonymized** and contains no missing values.
 
@@ -77,25 +77,25 @@ The analysis aims to move beyond simple cost prediction and explore how data can
 
 ## Methodology
 
-1. **SQL-Based Exploration**  
+**SQL-Based Exploration**  
    The dataset is loaded into a SQLite database to simulate a real analytics workflow where data is first queried and explored using SQL.
 
-2. **Exploratory Data Analysis**  
+**Exploratory Data Analysis**  
    Distribution analysis and visualizations are used to identify structural patterns in healthcare spending.
 
-3. **Risk Cohort Segmentation**  
+**Risk Cohort Segmentation**  
    Individuals are grouped into risk cohorts based on lifestyle factors such as smoking and BMI.
 
-4. **Health Risk Scoring**  
+**Health Risk Scoring**  
    A simple risk score combining smoking status, BMI and age is created to measure cumulative risk exposure.
 
-5. **Clustering (K-Means)**  
+**Clustering (K-Means)**  
    Unsupervised learning is used to identify natural population segments.
 
-6. **Causal Inference (Propensity Score Matching)**  
+**Causal Inference (Propensity Score Matching)**  
    Smokers are matched with comparable non-smokers to estimate the causal effect of smoking on healthcare costs.
 
-7. **Predictive Modeling**  
+**Predictive Modeling**  
    Linear Regression and Random Forest models are used to estimate healthcare expenses.
 
 8. **Experiment Design (A/B Testing Logic)**  
@@ -149,13 +149,9 @@ These insights guided the subsequent segmentation and modeling stages.
 
 Two complementary modeling approaches were used.
 
-**Regression Task**
+**Regression Task**: Predict annual healthcare costs using demographic and lifestyle variables.
 
-Predict annual healthcare costs using demographic and lifestyle variables.
-
-**Classification Perspective**
-
-Identify individuals belonging to the **high-cost patient segment** (top 20% of expenses).
+**Classification Perspective**: Identify individuals belonging to the **high-cost patient segment** (top 20% of expenses).
 
 The goal is not only prediction accuracy but also **interpretability**, enabling the identification of actionable cost drivers.
 
@@ -201,21 +197,13 @@ Several important insights emerge across the analysis:
 
 The insights from this analysis suggest several practical applications:
 
-**Prevention Programs**
+**Prevention Programs**: Smoking cessation initiatives could significantly reduce long-term healthcare costs.
 
-Smoking cessation initiatives could significantly reduce long-term healthcare costs.
+**Targeted Interventions**: Risk cohort identification allows healthcare organizations to prioritize individuals with multiple risk factors.
 
-**Targeted Interventions**
+**Resource Allocation**: Predictive models can support better forecasting of healthcare expenditures.
 
-Risk cohort identification allows healthcare organizations to prioritize individuals with multiple risk factors.
-
-**Resource Allocation**
-
-Predictive models can support better forecasting of healthcare expenditures.
-
-**Strategic Planning**
-
-Understanding cost drivers helps insurers and healthcare providers design prevention strategies that benefit both organizations and patients.
+**Strategic Planning**: Understanding cost drivers helps insurers and healthcare providers design prevention strategies that benefit both organizations and patients.
 
 ---
 
@@ -247,6 +235,8 @@ Possible future developments include:
 
 ```
 .
+├── data
+│   └── insurance.csv
 ├── notebooks
 │   ├── Preventive_Health_Analytics.ipynb
 │   └── Preventive_Health_Assistant_RAG.ipynb
