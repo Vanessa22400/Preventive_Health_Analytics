@@ -37,13 +37,13 @@ Dataset characteristics:
 
 Main variables:
 
-- **age** – age of the insured individual  
-- **sex** – gender  
-- **bmi** – body mass index  
-- **children** – number of dependents  
-- **smoker** – smoking status  
-- **region** – geographic region  
-- **charges** – annual healthcare costs  
+- `age` – age of the insured individual  
+- `sex` – gender  
+- `bmi` – body mass index  
+- `children` – number of dependents  
+- `smoker` – smoking status  
+- `region` – geographic region  
+- `charges` – annual healthcare costs  
 
 The dataset is **fully anonymized** and contains no missing values.
 
