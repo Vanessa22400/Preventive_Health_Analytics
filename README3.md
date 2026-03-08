@@ -12,7 +12,7 @@ Understanding what drives healthcare spending is essential for insurers, healthc
 
 In this context, the analysis focuses on questions such as:
 
-- Which demographic and lifestyle factors are associated with higher healthcare costs?
+- Which lifestyle factors are associated with higher healthcare costs?
 - Are there identifiable **high-risk population segments**?
 - How do lifestyle risks interact (for example smoking combined with obesity)?
 - Could prevention strategies help reduce long-term healthcare expenses?
@@ -76,6 +76,20 @@ Main stages:
 
 ---
 
+## How to Explore the Project
+
+The repository contains two notebooks:
+
+- **Preventive_Health_Analytics.ipynb**  
+  Full analytical workflow including SQL analysis, exploratory analysis, risk segmentation, clustering, causal inference and predictive modeling.
+
+- **Preventive_Health_Assistant_RAG.ipynb**  
+  A simple Retrieval-Augmented Generation prototype that connects the insights from the analytics project with external health knowledge to answer prevention-related questions.
+
+Both notebooks are designed to be read sequentially, starting with the analytical project and then exploring the RAG prototype.
+ 
+---
+
 ## SQL-Based Analysis
 
 The analysis begins with **SQL queries** to explore the dataset, simulating a real-world analytics workflow where data is retrieved from databases before further modeling.
@@ -96,16 +110,7 @@ The exploratory analysis revealed a **highly skewed distribution of healthcare c
 
 This pattern is common in healthcare systems and suggests that **a small number of high-risk individuals may drive a large share of total healthcare spending**.
 
-These observations motivated the following analyses, including **risk cohort segmentation, clustering and causal inference**, to better understand which factors contribute most to high medical expenses.
----
-
-## Exploratory Data Analysis
-
-The exploratory analysis revealed a highly **skewed distribution of healthcare costs**.
-
-Most individuals generate moderate medical expenses, while a small portion of the population generates very high costs.
-
-This pattern is common in healthcare systems and suggests that **targeted prevention strategies can have a large impact**.
+These observations motivated the following analyses, including risk cohort segmentation, clustering and causal inference, to better understand which factors contribute most to high medical expenses.
 
 ---
 
