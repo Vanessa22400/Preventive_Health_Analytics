@@ -98,10 +98,10 @@ The analysis aims to move beyond simple cost prediction and explore how data can
 **Predictive Modeling**  
    Linear Regression and Random Forest models are used to estimate healthcare expenses.
 
-8. **Experiment Design (A/B Testing Logic)**  
+**Experiment Design (A/B Testing Logic)**  
    A conceptual experiment evaluates how smoking cessation programs could impact healthcare costs.
 
-9. **AI Extension (RAG Prototype)**  
+**AI Extension (RAG Prototype)**  
    A second notebook demonstrates how analytics insights can be combined with external health knowledge using Retrieval-Augmented Generation.
 
 ---
