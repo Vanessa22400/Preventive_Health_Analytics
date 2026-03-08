@@ -6,14 +6,16 @@
 **Key Insight:** Smoking increases healthcare costs by approximately **$23,500** per individual per year, making it the strongest cost driver in the dataset.
 
 ---
-
 ## Business Context
 
-Healthcare systems face a structural challenge: **a relatively small portion of individuals generates a disproportionate share of total medical expenses**.
+Understanding what drives healthcare spending is essential for insurers, healthcare providers and policymakers. Identifying risk factors early can help design prevention strategies, allocate healthcare resources more efficiently and ultimately improve population health outcomes.
 
-Understanding what drives these costs is critical for insurers, healthcare providers and policymakers. Identifying risk factors early can help design **prevention strategies**, allocate healthcare resources more efficiently and ultimately improve population health outcomes.
+In this context, the analysis focuses on questions such as:
 
-This project explores how **data analytics can help identify cost drivers, detect high-risk segments and support prevention-oriented decision-making**.
+- Which demographic and lifestyle factors are associated with higher healthcare costs?
+- Are there identifiable **high-risk population segments**?
+- How do lifestyle risks interact (for example smoking combined with obesity)?
+- Could prevention strategies help reduce long-term healthcare expenses?
 
 ---
 
@@ -42,18 +44,6 @@ Key variables include:
 `charges` - annual healthcare costs  
 
 Healthcare costs range from roughly **$1,000 to more than $63,000**, indicating the presence of a **high-cost patient segment**.
-
----
-
-## Problem Statement
-
-Healthcare costs are unevenly distributed across the population.
-
-A relatively small group of individuals generates very high medical expenses, often associated with **lifestyle risk factors**.
-
-The central question of this project is:
-
-**Which demographic and lifestyle factors drive healthcare costs, and how can these insights support prevention-oriented strategies?**
 
 ---
 
@@ -99,6 +89,14 @@ Key questions investigated:
 
 The SQL exploration revealed that smokers incur **nearly four times higher medical costs on average** compared to non-smokers.
 
+---
+## Exploratory Data Analysis
+
+The exploratory analysis revealed a **highly skewed distribution of healthcare costs**, where most individuals generate moderate expenses while a smaller group incurs very high medical costs.
+
+This pattern is common in healthcare systems and suggests that **a small number of high-risk individuals may drive a large share of total healthcare spending**.
+
+These observations motivated the following analyses, including **risk cohort segmentation, clustering and causal inference**, to better understand which factors contribute most to high medical expenses.
 ---
 
 ## Exploratory Data Analysis
