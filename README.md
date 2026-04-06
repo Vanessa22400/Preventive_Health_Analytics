@@ -67,7 +67,7 @@ Main stages:
 
 1. SQL-based exploratory analysis  
 2. Exploratory Data Analysis (EDA)  
-3. Risk cohort analysis  
+3. Risk Segmentation analysis  
 4. Customer segmentation using clustering  
 5. Causal inference analysis  
 6. Predictive modeling  
@@ -90,9 +90,9 @@ Both notebooks are designed to be read sequentially, starting with the analytica
  
 ---
 
-## SQL-Based Analysis
+## SQL-Based Analysis and Risk Segmentation
 
-The analysis begins with **SQL queries** to explore the dataset, simulating a real-world analytics workflow where data is retrieved from databases before further modeling.
+The analysis begins with **SQL queries** to explore the dataset. To better understand risk patterns, individuals were grouped into **risk segmentation** based on lifestyle factors.
 
 Key questions investigated:
 
@@ -101,7 +101,10 @@ Key questions investigated:
 - What is the relationship between **BMI and medical spending**?
 - Do lifestyle risks interact (for example **smoking combined with obesity**)?
 
-The SQL exploration revealed that smokers incur **nearly four times higher medical costs on average** compared to non-smokers.
+The SQL exploration revealed that individuals combining **smoking and obesity** represent the highest-risk segmentation and generate dramatically higher healthcare expenses compared to other groups.
+
+Also revealed that smokers incur **nearly four times higher medical costs on average** compared to non-smokers.
+
 
 ---
 ## Exploratory Data Analysis
@@ -110,15 +113,13 @@ The exploratory analysis revealed a **highly skewed distribution of healthcare c
 
 This pattern is common in healthcare systems and suggests that **a small number of high-risk individuals may drive a large share of total healthcare spending**.
 
-These observations motivated the following analyses, including risk cohort segmentation, clustering and causal inference, to better understand which factors contribute most to high medical expenses.
+These observations motivated the following analyses, including clustering and causal inference, to better understand which factors contribute most to high medical expenses.
 
 ---
 
-## Risk Cohorts
+## Risk Segmentation
 
-To better understand risk patterns, individuals were grouped into **risk cohorts** based on lifestyle factors.
-
-The analysis shows that risk factors accumulate over time.
+To better understand risk patterns, individuals were grouped into **risk segmentation** based on lifestyle factors.
 
 Individuals combining **smoking and obesity** represent the highest-risk cohort and generate dramatically higher healthcare expenses compared to other groups.
 
