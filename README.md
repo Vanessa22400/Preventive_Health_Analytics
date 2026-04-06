@@ -117,16 +117,6 @@ These observations motivated the following analyses, including clustering and ca
 
 ---
 
-## Risk Segmentation
-
-To better understand risk patterns, individuals were grouped into **risk segmentation** based on lifestyle factors.
-
-Individuals combining **smoking and obesity** represent the highest-risk cohort and generate dramatically higher healthcare expenses compared to other groups.
-
-This type of segmentation is frequently used in healthcare analytics to support **population health management strategies**.
-
----
-
 ## Customer Segmentation (K-Means Clustering)
 
 Unsupervised learning was applied using **K-Means clustering** to identify natural population segments.
