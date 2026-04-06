@@ -90,7 +90,7 @@ Both notebooks are designed to be read sequentially, starting with the analytica
  
 ---
 
-## SQL-Based Analysis and Risk Segmentation
+## SQL-Based Analysis: Risk Segmentation
 
 The analysis begins with **SQL queries** to explore the dataset. To better understand risk patterns, individuals were grouped into **risk segmentation** based on lifestyle factors.
 
