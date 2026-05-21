@@ -90,6 +90,20 @@ Both notebooks are designed to be read sequentially, starting with the analytica
  
 ---
 
+
+## Full Technical Implementation
+
+This project includes two complementary notebooks:
+
+- Preventive_Health_Analytics.ipynb
+- Preventive_Health_Assistant_RAG.ipynb
+
+The complete notebooks and additional technical details are available upon request during the recruitment process.
+
+Feel free to connect via [LinkedIn](https://www.linkedin.com/in/vanessadonato/)
+
+---
+
 ## SQL-Based Analysis: Risk Segmentation
 
 The analysis begins with **SQL queries** to explore the dataset. To better understand risk patterns, individuals were grouped into **risk segmentation** based on lifestyle factors.
