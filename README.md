@@ -21,10 +21,6 @@ In this context, the analysis focuses on questions such as:
 
 ## Dataset
 
-The analysis uses the **Health Insurance Dataset**, a commonly used dataset for healthcare analytics.
-
-Source:  
-https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 Dataset characteristics:
 
